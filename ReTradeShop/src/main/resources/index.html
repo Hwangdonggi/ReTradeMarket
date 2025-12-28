@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ReTradeShop | 중고거래</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">본문으로 바로가기</a>
+
+<header class="site-header" role="banner">
+    <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="ReTradeShop 홈">ReTradeShop</a>
+
+        <form class="search" role="search" action="listing.html">
+            <label class="sr-only" for="q">검색</label>
+            <input id="q" name="q" type="search" placeholder="상품명, 지역, 태그로 검색" />
+            <button type="submit">검색</button>
+        </form>
+
+        <nav class="gnb" aria-label="주요 메뉴">
+            <a href="listing.html">상품</a>
+            <a href="#how">이용방법</a>
+            <a href="#footer">고객센터</a>
+            <a class="btn" href="#">로그인</a>
+        </nav>
+    </div>
+</header>
+
+<main id="main" class="site-main">
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container hero-inner">
+            <div class="hero-copy">
+                <h1>쉽고 빠른 중고 거래</h1>
+                <p>원하는 물건을 찾고, 합리적인 가격으로 안전하게 거래하세요.</p>
+                <div class="hero-actions">
+                    <a class="btn primary" href="listing.html">상품 둘러보기</a>
+                    <a class="btn ghost" href="#">판매 시작하기</a>
+                </div>
+            </div>
+
+            <div class="hero-card" aria-hidden="true">
+                <div class="hero-stat">
+                    <strong>24h</strong><span>빠른 매칭</span>
+                </div>
+                <div class="hero-stat">
+                    <strong>Safe</strong><span>거래 가이드</span>
+                </div>
+                <div class="hero-stat">
+                    <strong>Local</strong><span>지역 기반</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category -->
+    <section class="section">
+        <div class="container">
+            <header class="section-head">
+                <h2>카테고리</h2>
+                <p>원하는 상품을 빠르게 찾아보세요.</p>
+            </header>
+
+            <div class="grid grid-6 category-grid">
+                <a class="chip" href="listing.html?cat=electronic">전자기기</a>
+                <a class="chip" href="listing.html?cat=fashion">패션</a>
+                <a class="chip" href="listing.html?cat=book">도서</a>
+                <a class="chip" href="listing.html?cat=life">생활</a>
+                <a class="chip" href="listing.html?cat=hobby">취미</a>
+                <a class="chip" href="listing.html?cat=etc">기타</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Listing Preview -->
+    <section class="section">
+        <div class="container">
+            <header class="section-head section-head-row">
+                <div>
+                    <h2>오늘의 추천 상품</h2>
+                    <p>인기 매물과 합리적인 가격의 상품을 확인하세요.</p>
+                </div>
+                <a class="link" href="listing.html">전체보기 →</a>
+            </header>
+
+            <!-- 반응형 그리드: 카드 리스트 -->
+            <div class="grid grid-cards">
+                <article class="card">
+                    <a class="card-media" href="product.html" aria-label="상품 상세 이동">
+                        <div class="ph">이미지</div>
+                    </a>
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="product.html">아이패드 10세대 64GB</a></h3>
+                        <p class="card-meta">서울 · 방금 전</p>
+                        <div class="card-foot">
+                            <strong class="price">380,000원</strong>
+                            <span class="badge">안전거래</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <a class="card-media" href="product.html" aria-label="상품 상세 이동">
+                        <div class="ph">이미지</div>
+                    </a>
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="product.html">오프화이트 후드 L</a></h3>
+                        <p class="card-meta">경기 · 2시간 전</p>
+                        <div class="card-foot">
+                            <strong class="price">120,000원</strong>
+                            <span class="badge muted">직거래</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <a class="card-media" href="product.html" aria-label="상품 상세 이동">
+                        <div class="ph">이미지</div>
+                    </a>
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="product.html">원목 협탁</a></h3>
+                        <p class="card-meta">대전 · 1일 전</p>
+                        <div class="card-foot">
+                            <strong class="price">25,000원</strong>
+                            <span class="badge">배송가능</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <a class="card-media" href="product.html" aria-label="상품 상세 이동">
+                        <div class="ph">이미지</div>
+                    </a>
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="product.html">닌텐도 스위치</a></h3>
+                        <p class="card-meta">부산 · 3일 전</p>
+                        <div class="card-foot">
+                            <strong class="price">190,000원</strong>
+                            <span class="badge muted">직거래</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it works -->
+    <section id="how" class="section alt">
+        <div class="container">
+            <header class="section-head">
+                <h2>이용 방법</h2>
+                <p>거래 과정을 단계별로 안내합니다.</p>
+            </header>
+
+            <div class="grid grid-3 steps">
+                <div class="step">
+                    <h3>1. 검색/탐색</h3>
+                    <p>필터로 원하는 조건을 빠르게 찾습니다.</p>
+                </div>
+                <div class="step">
+                    <h3>2. 채팅/협의</h3>
+                    <p>판매자와 일정·가격을 조율합니다.</p>
+                </div>
+                <div class="step">
+                    <h3>3. 거래 완료</h3>
+                    <p>직거래 또는 배송으로 안전하게 마무리합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer id="footer" class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+        <div>
+            <strong>ReTradeShop</strong>
+            <p class="small">포트폴리오 퍼블리싱 프로젝트 (Demo)</p>
+        </div>
+        <div class="footer-links">
+            <a href="#">이용약관</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">고객센터</a>
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
