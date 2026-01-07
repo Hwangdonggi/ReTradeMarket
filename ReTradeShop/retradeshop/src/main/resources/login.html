@@ -1,10 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReTradeShop - 로그인</title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+<main class="auth-wrap">
+    <section class="auth-card">
+        <a class="auth-logo" href="index.html">
+            <span class="logo-mark">⚡</span>
+            <span class="logo-text">ReTradeShop</span>
+        </a>
 
+        <h1 class="auth-title">로그인</h1>
+        <p class="auth-desc">아이디와 비밀번호를 입력해 주세요.</p>
+
+        <form id="loginForm" class="auth-form">
+            <label class="field">
+                <span class="label">아이디</span>
+                <input type="text" name="username" placeholder="아이디 입력" autocomplete="username" required />
+            </label>
+
+            <label class="field">
+                <span class="label">비밀번호</span>
+                <input type="password" name="password" placeholder="비밀번호 입력" autocomplete="current-password" required />
+            </label>
+
+            <button class="btn primary" type="submit">로그인</button>
+
+            <div class="auth-links">
+                <a href="signup.html">회원가입</a>
+                <a href="index.html">메인으로</a>
+            </div>
+
+            <p id="loginMsg" class="msg" aria-live="polite"></p>
+        </form>
+    </section>
+</main>
+
+<script src="js/auth.js"></script>
 </body>
 </html>
