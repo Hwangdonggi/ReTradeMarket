@@ -11,7 +11,7 @@ public class HomeController {
     // 메인 홈페이지
     @GetMapping("/")
     public String home(Model model) {
-        model.addAttribute("title", "학생 출결관리 시스템");
+        model.addAttribute("title", "중고거래 사이트 ReTreadMarket");
         return "index"; // index.html
     }
 

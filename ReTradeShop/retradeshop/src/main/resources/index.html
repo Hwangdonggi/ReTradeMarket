@@ -1,10 +1,232 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReTradeShop - Main</title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+<!-- Top Header -->
+<header class="header">
+    <div class="container header-inner">
+        <!-- Left: Logo + Menu -->
+        <div class="header-left">
+            <button class="icon-btn" aria-label="메뉴">
+                <span class="hamburger"></span>
+            </button>
+            <a class="logo" href="#">
+                <span class="logo-mark">⚡</span>
+                <span class="logo-text">ReTradeShop</span>
+            </a>
+            <a class="sub-link" href="#">판매자센터</a>
+        </div>
 
+        <!-- Center: Search -->
+        <form class="search" action="#" method="get">
+            <input type="text" name="q" placeholder="상품명, 지역명, @상점명 입력" />
+            <button type="submit" aria-label="검색">🔍</button>
+        </form>
+
+        <!-- Right: Quick Nav -->
+        <nav class="header-right">
+            <a class="top-link" href="#">로그인/회원가입</a>
+            <a class="top-link" href="#">내상점</a>
+            <span class="divider"></span>
+            <a class="nav-item" href="#">판매하기</a>
+            <a class="nav-item" href="#">내상점</a>
+            <a class="nav-item" href="#">채팅</a>
+        </nav>
+    </div>
+</header>
+
+<main class="main">
+    <div class="container grid-main">
+        <!-- Hero 영역 -->
+        <section class="hero">
+            <div class="hero-slider">
+                <button class="slider-btn prev" aria-label="이전">‹</button>
+
+                <!-- 배너 이미지 -->
+                <div class="hero-banner" role="img" aria-label="메인 배너">
+                    <div class="hero-text">
+                        <h2>TOP5 주얼리<br/>시세 완벽 정리</h2>
+                        <p>하이엔드 시세 가이드</p>
+                    </div>
+                </div>
+
+                <button class="slider-btn next" aria-label="다음">›</button>
+            </div>
+        </section>
+
+        <!-- 오른쪽 사이드 퀵박스 -->
+        <aside class="side">
+            <div class="side-card">
+                <div class="side-title">찜한상품</div>
+                <div class="side-value">♡ 0</div>
+            </div>
+
+            <div class="side-card">
+                <div class="side-title">최근본상품</div>
+                <div class="side-muted">최근 본 상품이<br/>없습니다.</div>
+            </div>
+
+            <a class="side-top" href="#top">TOP</a>
+        </aside>
+    </div>
+
+    <!-- 앱 홍보 배너 -->
+    <section class="app-banner">
+        <div class="container app-inner">
+            <div class="qr-box">
+                <img src="img/qr.png" alt="QR 코드" onerror="this.style.display='none'">
+                <div class="qr-fallback">QR</div>
+            </div>
+
+            <div class="app-copy">
+                <div class="app-kicker">스마트폰에서 더 편리한</div>
+                <div class="app-title">취향 중고거래 앱 ReTradeShop</div>
+                <div class="app-cta">지금 다운받기</div>
+            </div>
+
+            <div class="app-mock">
+                <img src="img/app-mock.png" alt="앱 미리보기" onerror="this.style.display='none'">
+            </div>
+        </div>
+    </section>
+
+    <!-- 상품 추천 -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">오늘의 상품 추천</h2>
+
+            <div class="product-grid">
+                <!-- 카드 10개 예시 -->
+                <a class="card" href="#">
+                    <div class="thumb"><img src="img/p1.jpg" alt="상품1" onerror="this.remove();"></div>
+                    <div class="card-body">
+                        <div class="name">노스페이스 숏패딩 / boys</div>
+                        <div class="meta">
+                            <span class="price">45,000원</span>
+                            <span class="time">2일 전</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card" href="#">
+                    <div class="thumb"><img src="img/p2.jpg" alt="상품2" onerror="this.remove();"></div>
+                    <div class="card-body">
+                        <div class="name">CS60림 ㅣㅣ ㅍ 개급처</div>
+                        <div class="meta">
+                            <span class="price">300,000원</span>
+                            <span class="time">10시간 전</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card" href="#">
+                    <div class="thumb"><img src="img/p3.jpg" alt="상품3" onerror="this.remove();"></div>
+                    <div class="card-body">
+                        <div class="name">티쏘 TISSOT prc200 정품</div>
+                        <div class="meta">
+                            <span class="price">150,000원</span>
+                            <span class="time">3일 전</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card" href="#">
+                    <div class="thumb"><img src="img/p4.jpg" alt="상품4" onerror="this.remove();"></div>
+                    <div class="card-body">
+                        <div class="name">패딩 (고정가)</div>
+                        <div class="meta">
+                            <span class="price">420,000원</span>
+                            <span class="time">7일 전</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card" href="#">
+                    <div class="thumb"><img src="img/p5.jpg" alt="상품5" onerror="this.remove();"></div>
+                    <div class="card-body">
+                        <div class="name">경량 패딩</div>
+                        <div class="meta">
+                            <span class="price">44,000원</span>
+                            <span class="time">12시간 전</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card" href="#">
+                    <div class="thumb"><img src="img/p6.jpg" alt="상품6" onerror="this.remove();"></div>
+                    <div class="card-body">
+                        <div class="name">핸드크림 60g</div>
+                        <div class="meta">
+                            <span class="price">17,000원</span>
+                            <span class="time">1일 전</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card" href="#">
+                    <div class="thumb"><img src="img/p7.jpg" alt="상품7" onerror="this.remove();"></div>
+                    <div class="card-body">
+                        <div class="name">희귀 바둑 오성출판사</div>
+                        <div class="meta">
+                            <span class="price">150,000원</span>
+                            <span class="time">18시간 전</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card" href="#">
+                    <div class="thumb"><img src="img/p8.jpg" alt="상품8" onerror="this.remove();"></div>
+                    <div class="card-body">
+                        <div class="name">아디다스 레글런핏</div>
+                        <div class="meta">
+                            <span class="price">120,000원</span>
+                            <span class="time">14시간 전</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card" href="#">
+                    <div class="thumb"><img src="img/p9.jpg" alt="상품9" onerror="this.remove();"></div>
+                    <div class="card-body">
+                        <div class="name">스타벅스 글라스 컵</div>
+                        <div class="meta">
+                            <span class="price">80,000원</span>
+                            <span class="time">14시간 전</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card" href="#">
+                    <div class="thumb"><img src="img/p10.jpg" alt="상품10" onerror="this.remove();"></div>
+                    <div class="card-body">
+                        <div class="name">랜덤키링 미개봉</div>
+                        <div class="meta">
+                            <span class="price">19,000원</span>
+                            <span class="time">7일 전</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container footer-inner">
+        <div>© ReTradeShop</div>
+        <div class="footer-links">
+            <a href="#">이용약관</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">고객센터</a>
+        </div>
+    </div>
+</footer>
+
+<a id="top"></a>
 </body>
 </html>
