@@ -1,1 +1,0 @@
-console.log("ReTradeShop publishing loaded");

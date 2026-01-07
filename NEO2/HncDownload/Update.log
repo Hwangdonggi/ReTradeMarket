@@ -1,0 +1,578 @@
+[Done]
+1229_103009.6672=End to (None)
+1230_105451.2998=End to (None)
+1230_154809.5935=End to (None)
+1231_104921.6057=End to (None)
+1231_171316.1003=End to (None)
+0101_111406.1402=End to (None)
+0102_095752.1762=End to (None)
+0103_113107.3389=End to (None)
+0104_134241.3493=End to (None)
+0105_105859.8117=End to (None)
+0105_160407.6166=End to (None)
+0106_105922.4261=End to (None)
+0106_194828.8698=End to (None)
+0107_110355.9019=End to (None)
+[LastLog]
+Action=None
+Key=0107_110355.9277
+[None]
+1229_103009.6850=Begin from (Done)
+1230_004858.3105=(S)_DEBUG: Entering PhaseCheck.Begin()//OK
+1230_004858.3226=(S)_DEBUG: Entering PhaseCheck.Thread_UpdateCheck()//OK
+1230_004858.3262=(S)_DEBUG: Entering UpdateMain.Research()//OK
+1230_004858.3447=End to (Check)
+1230_004859.6376_0=Begin from (Check)
+1230_004859.6629=(S)_DEBUG: Entering CommonMethods.SelectInfoUriLanguage()...//OK
+1230_004859.7159=(S)_DEBUG: in HttpService._DownloadByRange(). fileStream.Length == webResponse.ContentLength//OK
+1230_004859.7418=MakePackage Success : 한컴유틸
+1230_004859.7475=(S)_DEBUG: Entering ConfigFilterDelta.Prepare()//OK
+1230_004859.7656=(S)_DEBUG: Entering DeltaProductList()//OK
+1230_004859.7806=(S)_DEBUG: Entering DeltaProductItem.VerifyConfig()//OK
+1230_004859.7904=(S)_DEBUG: Entering DeltaProductItem.VerifyUpdateFile().//OK
+1230_004859.8416=(S)_DEBUG: in HttpService._DownloadByRange(). fileStream.Length == webResponse.ContentLength//OK
+1230_004859.8676=(S)_DEBUG: Leaving DeltaProductItem.VerifyUpdateFile().//OK
+1230_004859.8748=Add update list : HncUtils_NEO2
+1230_004859.8891=Clear update list : OK_SelfUpdate
+1230_004859.9015=Add SelfUpdate product (HncUtils_NEO2) : 1
+1230_004859.9144=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : FrontNotice
+1230_004859.9627=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, uniqueID: 437676904836840932724836136291769220//OK
+1230_004859.9665=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, clientIP: 192.168.10.101//OK
+1230_004859.9857=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.101//OK
+1230_004900.2191=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+1230_004900.2319=(S)_DEBUG: IsForceUpdate: False//OK
+1230_004900.2435=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : SelectNotice
+1230_004900.3115=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, uniqueID: 437676904836840932724836136291769220//OK
+1230_004900.3275=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, clientIP: 192.168.10.101//OK
+1230_004900.3405=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.101//OK
+1230_004900.5750=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+1230_004900.5895=(S)_DEBUG: IsForceUpdate: False//OK
+1230_004900.6015=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : EndNotice
+1230_004900.6510=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, uniqueID: 437676904836840932724836136291769220//OK
+1230_004900.6622=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, clientIP: 192.168.10.101//OK
+1230_004900.6752=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.101//OK
+1230_004900.9033=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+1230_004900.9162=(S)_DEBUG: IsForceUpdate: False//OK
+1230_004900.9309=(S)_DEBUG: FrontNotice URI == http://www.hancom.com/viewer/netffice/index.html//OK
+1230_004900.9459=OnlySelfUpdate : OK_OnlySelfUpdate
+1230_004900.9599=(S)_DEBUG: Leaving PhaseCheck.Thread_UpdateCheck()//OK
+1230_105451.3305=Begin from (Done)
+1230_154809.6200=Begin from (Done)
+1231_104921.6362=Begin from (Done)
+1231_171316.1233=Begin from (Done)
+1231_214010.4435=(S)_DEBUG: Entering PhaseCheck.Begin()//OK
+1231_214010.4719=(S)_DEBUG: Entering PhaseCheck.Thread_UpdateCheck()//OK
+1231_214010.4920=(S)_DEBUG: Entering UpdateMain.Research()//OK
+1231_214010.5073=End to (Check)
+1231_214011.9790=Begin from (Check)
+1231_214011.9979=(S)_DEBUG: Entering CommonMethods.SelectInfoUriLanguage()...//OK
+1231_214012.0801=MakePackage Success : 한컴유틸
+1231_214012.0950=(S)_DEBUG: Entering ConfigFilterDelta.Prepare()//OK
+1231_214012.1149=(S)_DEBUG: Entering DeltaProductList()//OK
+1231_214012.1356=(S)_DEBUG: Entering DeltaProductItem.VerifyConfig()//OK
+1231_214012.1549=(S)_DEBUG: Entering DeltaProductItem.VerifyUpdateFile().//OK
+1231_214012.2189=(S)_DEBUG: in HttpService._DownloadByRange(). fileStream.Length == webResponse.ContentLength//OK
+1231_214012.2473=(S)_DEBUG: Leaving DeltaProductItem.VerifyUpdateFile().//OK
+1231_214012.2614=Add update list : HncUtils_NEO2
+1231_214012.2810=Clear update list : OK_SelfUpdate
+1231_214012.2999=Add SelfUpdate product (HncUtils_NEO2) : 1
+1231_214012.3179=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : FrontNotice
+1231_214012.3750=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, uniqueID: 437676904836840932724836136291769220//OK
+1231_214012.3941=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, clientIP: 192.168.10.100//OK
+1231_214012.4141=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+1231_214012.6578=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+1231_214012.6832=(S)_DEBUG: IsForceUpdate: False//OK
+1231_214012.7067=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : SelectNotice
+1231_214012.7733=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, uniqueID: 437676904836840932724836136291769220//OK
+1231_214012.7967=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, clientIP: 192.168.10.100//OK
+1231_214012.8180=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+1231_214013.0664=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+1231_214013.0892=(S)_DEBUG: IsForceUpdate: False//OK
+1231_214013.1113=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : EndNotice
+1231_214013.1763=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, uniqueID: 437676904836840932724836136291769220//OK
+1231_214013.1982=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, clientIP: 192.168.10.100//OK
+1231_214013.2173=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+1231_214013.4568=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+1231_214013.4823=(S)_DEBUG: IsForceUpdate: False//OK
+1231_214013.5043=(S)_DEBUG: FrontNotice URI == http://www.hancom.com/viewer/netffice/index.html//OK
+1231_214013.5291=OnlySelfUpdate : OK_OnlySelfUpdate
+1231_214013.5487=(S)_DEBUG: Leaving PhaseCheck.Thread_UpdateCheck()//OK
+0101_111406.1603=Begin from (Done)
+0101_113748.4344=(S)_DEBUG: Entering PhaseCheck.Begin()//OK
+0101_113748.4663=(S)_DEBUG: Entering PhaseCheck.Thread_UpdateCheck()//OK
+0101_113748.4927=(S)_DEBUG: Entering UpdateMain.Research()//OK
+0101_113748.5172=End to (Check)
+0101_113750.0951=Begin from (Check)
+0101_113750.1159=(S)_DEBUG: Entering CommonMethods.SelectInfoUriLanguage()...//OK
+0101_113750.2182=MakePackage Success : 한컴유틸
+0101_113750.2329=(S)_DEBUG: Entering ConfigFilterDelta.Prepare()//OK
+0101_113750.2524=(S)_DEBUG: Entering DeltaProductList()//OK
+0101_113750.2782=(S)_DEBUG: Entering DeltaProductItem.VerifyConfig()//OK
+0101_113750.3004=(S)_DEBUG: Entering DeltaProductItem.VerifyUpdateFile().//OK
+0101_113750.3883=(S)_DEBUG: in HttpService._DownloadByRange(). fileStream.Length == webResponse.ContentLength//OK
+0101_113750.4228=(S)_DEBUG: Leaving DeltaProductItem.VerifyUpdateFile().//OK
+0101_113750.4395=Add update list : HncUtils_NEO2
+0101_113750.4625=Clear update list : OK_SelfUpdate
+0101_113750.4850=Add SelfUpdate product (HncUtils_NEO2) : 1
+0101_113750.5051=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : FrontNotice
+0101_113750.5644=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, uniqueID: 437676904836840932724836136291769220//OK
+0101_113750.5900=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, clientIP: 192.168.10.100//OK
+0101_113750.6141=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0101_113750.8491=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0101_113750.8701=(S)_DEBUG: IsForceUpdate: False//OK
+0101_113750.8967=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : SelectNotice
+0101_113750.9603=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, uniqueID: 437676904836840932724836136291769220//OK
+0101_113750.9817=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, clientIP: 192.168.10.100//OK
+0101_113751.0080=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0101_113751.2560=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0101_113751.2787=(S)_DEBUG: IsForceUpdate: False//OK
+0101_113751.3054=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : EndNotice
+0101_113751.3720=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, uniqueID: 437676904836840932724836136291769220//OK
+0101_113751.3926=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, clientIP: 192.168.10.100//OK
+0101_113751.4306=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0101_113751.5659=(S)_TCPService.ReceivePacket(). Net_RecvBuf() == -10053 < 0//OK
+0101_113751.5895=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, Ret val of GetDownloadKeyAndURL() == Error_Recevie_Packet//OK
+0101_113751.6175=(S)_DEBUG: IsForceUpdate: False//OK
+0101_113751.6444=DEBUG: in ProtocolTCP.MakeCDNPath(). Ret val of GetUrlDownload() == : Error_Recevie_Packet
+0101_113751.6777=(S)_DEBUG: FrontNotice URI == http://www.hancom.com/viewer/netffice/index.html//OK
+0101_113751.7057=OnlySelfUpdate : OK_OnlySelfUpdate
+0101_113751.7345=(S)_DEBUG: Leaving PhaseCheck.Thread_UpdateCheck()//OK
+0102_004051.7590=(S)_DEBUG: Entering PhaseCheck.Begin()//OK
+0102_004051.7992=(S)_DEBUG: Entering PhaseCheck.Thread_UpdateCheck()//OK
+0102_004051.8274=(S)_DEBUG: Entering UpdateMain.Research()//OK
+0102_004051.8623=End to (Check)
+0102_004053.6111=Begin from (Check)
+0102_004053.6477=(S)_DEBUG: Entering CommonMethods.SelectInfoUriLanguage()...//OK
+0102_004053.7372=MakePackage Success : 한컴유틸
+0102_004053.7601=(S)_DEBUG: Entering ConfigFilterDelta.Prepare()//OK
+0102_004053.7881=(S)_DEBUG: Entering DeltaProductList()//OK
+0102_004053.8195=(S)_DEBUG: Entering DeltaProductItem.VerifyConfig()//OK
+0102_004053.8489=(S)_DEBUG: Entering DeltaProductItem.VerifyUpdateFile().//OK
+0102_004053.9270=(S)_DEBUG: in HttpService._DownloadByRange(). fileStream.Length == webResponse.ContentLength//OK
+0102_004053.9653=(S)_DEBUG: Leaving DeltaProductItem.VerifyUpdateFile().//OK
+0102_004053.9870=Add update list : HncUtils_NEO2
+0102_004054.0181=Clear update list : OK_SelfUpdate
+0102_004054.0465=Add SelfUpdate product (HncUtils_NEO2) : 1
+0102_004054.0771=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : FrontNotice
+0102_004054.1621=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, uniqueID: 437676904836840932724836136291769220//OK
+0102_004054.1830=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, clientIP: 192.168.10.100//OK
+0102_004054.2148=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0102_004054.4721=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0102_004054.4950=(S)_DEBUG: IsForceUpdate: False//OK
+0102_004054.5228=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : SelectNotice
+0102_004054.5999=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, uniqueID: 437676904836840932724836136291769220//OK
+0102_004054.6264=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, clientIP: 192.168.10.100//OK
+0102_004054.6627=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0102_004054.9224=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0102_004054.9456=(S)_DEBUG: IsForceUpdate: False//OK
+0102_004054.9780=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : EndNotice
+0102_004055.0533=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, uniqueID: 437676904836840932724836136291769220//OK
+0102_004055.0802=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, clientIP: 192.168.10.100//OK
+0102_004055.1174=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0102_004055.3663=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0102_004055.3889=(S)_DEBUG: IsForceUpdate: False//OK
+0102_004055.4213=(S)_DEBUG: FrontNotice URI == http://www.hancom.com/viewer/netffice/index.html//OK
+0102_004055.4522=OnlySelfUpdate : OK_OnlySelfUpdate
+0102_004055.4856=(S)_DEBUG: Leaving PhaseCheck.Thread_UpdateCheck()//OK
+0102_095752.2013=Begin from (Done)
+0102_212001.2496=(S)_DEBUG: Entering PhaseCheck.Begin()//OK
+0102_212001.2897=(S)_DEBUG: Entering PhaseCheck.Thread_UpdateCheck()//OK
+0102_212001.3159=(S)_DEBUG: Entering UpdateMain.Research()//OK
+0102_212001.3417=End to (Check)
+0102_212002.8635=Begin from (Check)
+0102_212002.8856=(S)_DEBUG: Entering CommonMethods.SelectInfoUriLanguage()...//OK
+0102_212002.9726=MakePackage Success : 한컴유틸
+0102_212002.9873=(S)_DEBUG: Entering ConfigFilterDelta.Prepare()//OK
+0102_212003.0064=(S)_DEBUG: Entering DeltaProductList()//OK
+0102_212003.0264=(S)_DEBUG: Entering DeltaProductItem.VerifyConfig()//OK
+0102_212003.0445=(S)_DEBUG: Entering DeltaProductItem.VerifyUpdateFile().//OK
+0102_212003.1101=(S)_DEBUG: in HttpService._DownloadByRange(). fileStream.Length == webResponse.ContentLength//OK
+0102_212003.1434=(S)_DEBUG: Leaving DeltaProductItem.VerifyUpdateFile().//OK
+0102_212003.1550=Add update list : HncUtils_NEO2
+0102_212003.1779=Clear update list : OK_SelfUpdate
+0102_212003.1974=Add SelfUpdate product (HncUtils_NEO2) : 1
+0102_212003.2178=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : FrontNotice
+0102_212003.2741=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, uniqueID: 437676904836840932724836136291769220//OK
+0102_212003.2956=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, clientIP: 192.168.10.100//OK
+0102_212003.3174=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0102_212003.5607=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0102_212003.5797=(S)_DEBUG: IsForceUpdate: False//OK
+0102_212003.6116=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : SelectNotice
+0102_212003.6741=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, uniqueID: 437676904836840932724836136291769220//OK
+0102_212003.6914=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, clientIP: 192.168.10.100//OK
+0102_212003.7176=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0102_212003.9640=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0102_212003.9830=(S)_DEBUG: IsForceUpdate: False//OK
+0102_212004.0086=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : EndNotice
+0102_212004.0862=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, uniqueID: 437676904836840932724836136291769220//OK
+0102_212004.1080=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, clientIP: 192.168.10.100//OK
+0102_212004.1247=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0102_212004.3843=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0102_212004.4315=(S)_DEBUG: IsForceUpdate: False//OK
+0102_212004.4537=(S)_DEBUG: FrontNotice URI == http://www.hancom.com/viewer/netffice/index.html//OK
+0102_212004.4804=OnlySelfUpdate : OK_OnlySelfUpdate
+0102_212004.5091=(S)_DEBUG: Leaving PhaseCheck.Thread_UpdateCheck()//OK
+0103_113107.3564=Begin from (Done)
+0103_115141.0989=(S)_DEBUG: Entering PhaseCheck.Begin()//OK
+0103_115141.1274=(S)_DEBUG: Entering PhaseCheck.Thread_UpdateCheck()//OK
+0103_115141.1568=(S)_DEBUG: Entering UpdateMain.Research()//OK
+0103_115141.1774=End to (Check)
+0103_115142.7202=Begin from (Check)
+0103_115142.7410=(S)_DEBUG: Entering CommonMethods.SelectInfoUriLanguage()...//OK
+0103_115142.8448=MakePackage Success : 한컴유틸
+0103_115142.8622=(S)_DEBUG: Entering ConfigFilterDelta.Prepare()//OK
+0103_115142.8817=(S)_DEBUG: Entering DeltaProductList()//OK
+0103_115142.9009=(S)_DEBUG: Entering DeltaProductItem.VerifyConfig()//OK
+0103_115142.9185=(S)_DEBUG: Entering DeltaProductItem.VerifyUpdateFile().//OK
+0103_115142.9896=(S)_DEBUG: in HttpService._DownloadByRange(). fileStream.Length == webResponse.ContentLength//OK
+0103_115143.0171=(S)_DEBUG: Leaving DeltaProductItem.VerifyUpdateFile().//OK
+0103_115143.0306=Add update list : HncUtils_NEO2
+0103_115143.0489=Clear update list : OK_SelfUpdate
+0103_115143.0667=Add SelfUpdate product (HncUtils_NEO2) : 1
+0103_115143.0847=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : FrontNotice
+0103_115143.1426=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, uniqueID: 437676904836840932724836136291769220//OK
+0103_115143.1584=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, clientIP: 192.168.10.100//OK
+0103_115143.1843=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0103_115143.4305=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0103_115143.4506=(S)_DEBUG: IsForceUpdate: False//OK
+0103_115143.4764=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : SelectNotice
+0103_115143.5393=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, uniqueID: 437676904836840932724836136291769220//OK
+0103_115143.5562=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, clientIP: 192.168.10.100//OK
+0103_115143.5772=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0103_115143.8143=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0103_115143.8353=(S)_DEBUG: IsForceUpdate: False//OK
+0103_115143.8591=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : EndNotice
+0103_115143.9210=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, uniqueID: 437676904836840932724836136291769220//OK
+0103_115143.9420=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, clientIP: 192.168.10.100//OK
+0103_115143.9614=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0103_115144.1962=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0103_115144.2124=(S)_DEBUG: IsForceUpdate: False//OK
+0103_115144.2384=(S)_DEBUG: FrontNotice URI == http://www.hancom.com/viewer/netffice/index.html//OK
+0103_115144.2636=OnlySelfUpdate : OK_OnlySelfUpdate
+0103_115144.2852=(S)_DEBUG: Leaving PhaseCheck.Thread_UpdateCheck()//OK
+0104_002045.0478=(S)_DEBUG: Entering PhaseCheck.Begin()//OK
+0104_002045.0813=(S)_DEBUG: Entering PhaseCheck.Thread_UpdateCheck()//OK
+0104_002045.1024=(S)_DEBUG: Entering UpdateMain.Research()//OK
+0104_002045.1234=End to (Check)
+0104_002046.6596=Begin from (Check)
+0104_002046.6800=(S)_DEBUG: Entering CommonMethods.SelectInfoUriLanguage()...//OK
+0104_002046.7612=MakePackage Success : 한컴유틸
+0104_002046.7793=(S)_DEBUG: Entering ConfigFilterDelta.Prepare()//OK
+0104_002046.7976=(S)_DEBUG: Entering DeltaProductList()//OK
+0104_002046.8194=(S)_DEBUG: Entering DeltaProductItem.VerifyConfig()//OK
+0104_002046.8404=(S)_DEBUG: Entering DeltaProductItem.VerifyUpdateFile().//OK
+0104_002046.9039=(S)_DEBUG: in HttpService._DownloadByRange(). fileStream.Length == webResponse.ContentLength//OK
+0104_002046.9337=(S)_DEBUG: Leaving DeltaProductItem.VerifyUpdateFile().//OK
+0104_002046.9494=Add update list : HncUtils_NEO2
+0104_002046.9698=Clear update list : OK_SelfUpdate
+0104_002046.9903=Add SelfUpdate product (HncUtils_NEO2) : 1
+0104_002047.0095=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : FrontNotice
+0104_002047.0636=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, uniqueID: 437676904836840932724836136291769220//OK
+0104_002047.0871=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, clientIP: 192.168.10.100//OK
+0104_002047.1140=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0104_002047.3451=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0104_002047.3685=(S)_DEBUG: IsForceUpdate: False//OK
+0104_002047.3944=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : SelectNotice
+0104_002047.4602=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, uniqueID: 437676904836840932724836136291769220//OK
+0104_002047.4782=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, clientIP: 192.168.10.100//OK
+0104_002047.5037=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0104_002047.7542=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0104_002047.7768=(S)_DEBUG: IsForceUpdate: False//OK
+0104_002047.7994=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : EndNotice
+0104_002047.8638=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, uniqueID: 437676904836840932724836136291769220//OK
+0104_002047.8813=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, clientIP: 192.168.10.100//OK
+0104_002047.9098=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0104_002048.1504=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0104_002048.1741=(S)_DEBUG: IsForceUpdate: False//OK
+0104_002048.1994=(S)_DEBUG: FrontNotice URI == http://www.hancom.com/viewer/netffice/index.html//OK
+0104_002048.2196=OnlySelfUpdate : OK_OnlySelfUpdate
+0104_002048.2439=(S)_DEBUG: Leaving PhaseCheck.Thread_UpdateCheck()//OK
+0104_134241.3723=Begin from (Done)
+0105_105859.8296=Begin from (Done)
+0105_115535.8580=(S)_DEBUG: Entering PhaseCheck.Begin()//OK
+0105_115535.9163=(S)_DEBUG: Entering PhaseCheck.Thread_UpdateCheck()//OK
+0105_115535.9746=(S)_DEBUG: Entering UpdateMain.Research()//OK
+0105_115536.0391=End to (Check)
+0105_115538.7650=Begin from (Check)
+0105_115538.8038=(S)_DEBUG: Entering CommonMethods.SelectInfoUriLanguage()...//OK
+0105_115538.9253=MakePackage Success : 한컴유틸
+0105_115538.9662=(S)_DEBUG: Entering ConfigFilterDelta.Prepare()//OK
+0105_115539.0412=(S)_DEBUG: Entering DeltaProductList()//OK
+0105_115539.1045=(S)_DEBUG: Entering DeltaProductItem.VerifyConfig()//OK
+0105_115539.1571=(S)_DEBUG: Entering DeltaProductItem.VerifyUpdateFile().//OK
+0105_115539.2592=(S)_DEBUG: in HttpService._DownloadByRange(). fileStream.Length == webResponse.ContentLength//OK
+0105_115539.3133=(S)_DEBUG: Leaving DeltaProductItem.VerifyUpdateFile().//OK
+0105_115539.3408=Add update list : HncUtils_NEO2
+0105_115539.3863=Clear update list : OK_SelfUpdate
+0105_115539.4386=Add SelfUpdate product (HncUtils_NEO2) : 1
+0105_115539.4972=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : FrontNotice
+0105_115539.6400=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, uniqueID: 437676904836840932724836136291769220//OK
+0105_115539.6804=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, clientIP: 192.168.100.142//OK
+0105_115539.7410=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.100.142//OK
+0105_115540.0071=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0105_115540.0527=(S)_DEBUG: IsForceUpdate: False//OK
+0105_115540.1133=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : SelectNotice
+0105_115540.2617=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, uniqueID: 437676904836840932724836136291769220//OK
+0105_115540.3003=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, clientIP: 192.168.100.142//OK
+0105_115540.3622=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.100.142//OK
+0105_115540.6569=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0105_115540.6978=(S)_DEBUG: IsForceUpdate: False//OK
+0105_115540.7600=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : EndNotice
+0105_115540.9219=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, uniqueID: 437676904836840932724836136291769220//OK
+0105_115540.9578=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, clientIP: 192.168.100.142//OK
+0105_115541.0307=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.100.142//OK
+0105_115541.2973=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0105_115541.3387=(S)_DEBUG: IsForceUpdate: False//OK
+0105_115541.3947=(S)_DEBUG: FrontNotice URI == http://www.hancom.com/viewer/netffice/index.html//OK
+0105_115541.4619=OnlySelfUpdate : OK_OnlySelfUpdate
+0105_115541.5431=(S)_DEBUG: Leaving PhaseCheck.Thread_UpdateCheck()//OK
+0105_160407.6426=Begin from (Done)
+0106_105922.4538=Begin from (Done)
+0106_194828.8839=Begin from (Done)
+0106_225248.1111=(S)_DEBUG: Entering PhaseCheck.Begin()//OK
+0106_225248.1527=(S)_DEBUG: Entering PhaseCheck.Thread_UpdateCheck()//OK
+0106_225248.1785=(S)_DEBUG: Entering UpdateMain.Research()//OK
+0106_225248.2006=End to (Check)
+0106_225249.8427=Begin from (Check)
+0106_225249.8636=(S)_DEBUG: Entering CommonMethods.SelectInfoUriLanguage()...//OK
+0106_225249.9478=MakePackage Success : 한컴유틸
+0106_225249.9631=(S)_DEBUG: Entering ConfigFilterDelta.Prepare()//OK
+0106_225249.9824=(S)_DEBUG: Entering DeltaProductList()//OK
+0106_225250.0015=(S)_DEBUG: Entering DeltaProductItem.VerifyConfig()//OK
+0106_225250.0220=(S)_DEBUG: Entering DeltaProductItem.VerifyUpdateFile().//OK
+0106_225250.1078=(S)_DEBUG: in HttpService._DownloadByRange(). fileStream.Length == webResponse.ContentLength//OK
+0106_225250.1399=(S)_DEBUG: Leaving DeltaProductItem.VerifyUpdateFile().//OK
+0106_225250.1570=Add update list : HncUtils_NEO2
+0106_225250.1773=Clear update list : OK_SelfUpdate
+0106_225250.1976=Add SelfUpdate product (HncUtils_NEO2) : 1
+0106_225250.2165=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : FrontNotice
+0106_225250.3021=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, uniqueID: 437676904836840932724836136291769220//OK
+0106_225250.3233=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, clientIP: 192.168.10.100//OK
+0106_225250.3448=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0106_225250.5957=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: FrontNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0106_225250.6198=(S)_DEBUG: IsForceUpdate: False//OK
+0106_225250.6422=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : SelectNotice
+0106_225250.7088=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, uniqueID: 437676904836840932724836136291769220//OK
+0106_225250.7305=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, clientIP: 192.168.10.100//OK
+0106_225250.7537=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0106_225250.9910=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: SelectNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0106_225251.0133=(S)_DEBUG: IsForceUpdate: False//OK
+0106_225251.0428=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : EndNotice
+0106_225251.1036=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, uniqueID: 437676904836840932724836136291769220//OK
+0106_225251.1213=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, clientIP: 192.168.10.100//OK
+0106_225251.1437=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0106_225251.3966=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: EndNotice, Ret val of GetDownloadKeyAndURL() == OK//OK
+0106_225251.4209=(S)_DEBUG: IsForceUpdate: False//OK
+0106_225251.4440=(S)_DEBUG: FrontNotice URI == http://www.hancom.com/viewer/netffice/index.html//OK
+0106_225251.4687=OnlySelfUpdate : OK_OnlySelfUpdate
+0106_225251.4925=(S)_DEBUG: Leaving PhaseCheck.Thread_UpdateCheck()//OK
+0107_110355.9277=Begin from (Done)
+[Check]
+1230_004858.3638=Begin from (None)
+1230_004858.4197=SetProtocol : OK
+1230_004858.4975=(S)_DEBUG: Entering CoreResearch.GetUpdateList()//OK
+1230_004858.5086=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, projectLocal == R1, deltaLocal == 0 : 
+1230_004858.7825=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HncUtils_NEO2/R30, project == R30, delta == 0, auth_response == 2, errCode == 0 : 
+1230_004858.7942=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, cdnPath == http://cdn.hancom.com/update/HncUtils_NEO2/R30 : 
+1230_004858.8034=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, projectServer == R30, deltaServer == 0 : 
+1230_004858.8116=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+1230_004858.8230=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, product is not latest : 
+1230_004858.8339=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, projectLocal == R1, deltaLocal == 0 : 
+1230_004859.0928=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HOffice_NEO2/R45, project == R45, delta == 0, auth_response == 2, errCode == 0 : 
+1230_004859.1008=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, cdnPath == http://cdn.hancom.com/update/HOffice_NEO2/R45 : 
+1230_004859.1168=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, projectServer == R45, deltaServer == 0 : 
+1230_004859.1287=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+1230_004859.1377=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, product is not latest : 
+1230_004859.1538=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : 
+1230_004859.2012=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, uniqueID: 437676904836840932724836136291769220//OK
+1230_004859.2075=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, clientIP: 192.168.10.101//OK
+1230_004859.2215=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.101//OK
+1230_004859.4522=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, Ret val of GetDownloadKeyAndURL() == OK//OK
+1230_004859.4643=(S)_DEBUG: IsForceUpdate: False//OK
+1230_004859.5914=(S)_DEBUG: in HttpService._DownloadByRange(). fileStream.Length == webResponse.ContentLength//OK
+1230_004859.6220=(S)_DEBUG: Entering CommonMethods.GetUpdateInfoUri()...//OK
+1230_004859.6376=End to (None)
+1231_214010.5274=Begin from (None)
+1231_214010.5980=SetProtocol : OK
+1231_214010.6730=(S)_DEBUG: Entering CoreResearch.GetUpdateList()//OK
+1231_214010.6861=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, projectLocal == R1, deltaLocal == 0 : 
+1231_214010.9618=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HncUtils_NEO2/R30, project == R30, delta == 0, auth_response == 2, errCode == 0 : 
+1231_214010.9842=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, cdnPath == http://cdn.hancom.com/update/HncUtils_NEO2/R30 : 
+1231_214011.0022=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, projectServer == R30, deltaServer == 0 : 
+1231_214011.0193=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+1231_214011.0368=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, product is not latest : 
+1231_214011.0617=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, projectLocal == R1, deltaLocal == 0 : 
+1231_214011.3204=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HOffice_NEO2/R45, project == R45, delta == 0, auth_response == 2, errCode == 0 : 
+1231_214011.3394=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, cdnPath == http://cdn.hancom.com/update/HOffice_NEO2/R45 : 
+1231_214011.3547=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, projectServer == R45, deltaServer == 0 : 
+1231_214011.3685=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+1231_214011.3818=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, product is not latest : 
+1231_214011.4003=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : 
+1231_214011.4676=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, uniqueID: 437676904836840932724836136291769220//OK
+1231_214011.4860=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, clientIP: 192.168.10.100//OK
+1231_214011.5105=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+1231_214011.7572=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, Ret val of GetDownloadKeyAndURL() == OK//OK
+1231_214011.7796=(S)_DEBUG: IsForceUpdate: False//OK
+1231_214011.9456=(S)_DEBUG: Entering CommonMethods.GetUpdateInfoUri()...//OK
+1231_214011.9661=End to (None)
+0101_113748.5415=Begin from (None)
+0101_113748.6139=SetProtocol : OK
+0101_113748.6829=(S)_DEBUG: Entering CoreResearch.GetUpdateList()//OK
+0101_113748.7012=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, projectLocal == R1, deltaLocal == 0 : 
+0101_113748.9814=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HncUtils_NEO2/R30, project == R30, delta == 0, auth_response == 2, errCode == 0 : 
+0101_113749.0043=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, cdnPath == http://cdn.hancom.com/update/HncUtils_NEO2/R30 : 
+0101_113749.0330=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, projectServer == R30, deltaServer == 0 : 
+0101_113749.0584=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+0101_113749.0842=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, product is not latest : 
+0101_113749.1068=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, projectLocal == R1, deltaLocal == 0 : 
+0101_113749.3840=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HOffice_NEO2/R45, project == R45, delta == 0, auth_response == 2, errCode == 0 : 
+0101_113749.4005=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, cdnPath == http://cdn.hancom.com/update/HOffice_NEO2/R45 : 
+0101_113749.4242=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, projectServer == R45, deltaServer == 0 : 
+0101_113749.4508=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+0101_113749.4764=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, product is not latest : 
+0101_113749.4996=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : 
+0101_113749.5659=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, uniqueID: 437676904836840932724836136291769220//OK
+0101_113749.5831=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, clientIP: 192.168.10.100//OK
+0101_113749.6093=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0101_113749.8467=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, Ret val of GetDownloadKeyAndURL() == OK//OK
+0101_113749.8677=(S)_DEBUG: IsForceUpdate: False//OK
+0101_113750.0576=(S)_DEBUG: Entering CommonMethods.GetUpdateInfoUri()...//OK
+0101_113750.0810=End to (None)
+0102_004051.8888=Begin from (None)
+0102_004051.9680=SetProtocol : OK
+0102_004052.0737=(S)_DEBUG: Entering CoreResearch.GetUpdateList()//OK
+0102_004052.0927=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, projectLocal == R1, deltaLocal == 0 : 
+0102_004052.4180=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HncUtils_NEO2/R30, project == R30, delta == 0, auth_response == 2, errCode == 0 : 
+0102_004052.4390=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, cdnPath == http://cdn.hancom.com/update/HncUtils_NEO2/R30 : 
+0102_004052.4750=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, projectServer == R30, deltaServer == 0 : 
+0102_004052.5114=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+0102_004052.5384=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, product is not latest : 
+0102_004052.5653=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, projectLocal == R1, deltaLocal == 0 : 
+0102_004052.8526=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HOffice_NEO2/R45, project == R45, delta == 0, auth_response == 2, errCode == 0 : 
+0102_004052.8749=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, cdnPath == http://cdn.hancom.com/update/HOffice_NEO2/R45 : 
+0102_004052.9057=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, projectServer == R45, deltaServer == 0 : 
+0102_004052.9303=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+0102_004052.9653=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, product is not latest : 
+0102_004052.9973=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : 
+0102_004053.0890=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, uniqueID: 437676904836840932724836136291769220//OK
+0102_004053.1143=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, clientIP: 192.168.10.100//OK
+0102_004053.1447=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0102_004053.3807=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, Ret val of GetDownloadKeyAndURL() == OK//OK
+0102_004053.3973=(S)_DEBUG: IsForceUpdate: False//OK
+0102_004053.5414=(S)_DEBUG: Entering CommonMethods.GetUpdateInfoUri()...//OK
+0102_004053.5837=End to (None)
+0102_212001.3628=Begin from (None)
+0102_212001.4363=SetProtocol : OK
+0102_212001.5199=(S)_DEBUG: Entering CoreResearch.GetUpdateList()//OK
+0102_212001.5391=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, projectLocal == R1, deltaLocal == 0 : 
+0102_212001.8187=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HncUtils_NEO2/R30, project == R30, delta == 0, auth_response == 2, errCode == 0 : 
+0102_212001.8417=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, cdnPath == http://cdn.hancom.com/update/HncUtils_NEO2/R30 : 
+0102_212001.8616=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, projectServer == R30, deltaServer == 0 : 
+0102_212001.8852=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+0102_212001.9079=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, product is not latest : 
+0102_212001.9335=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, projectLocal == R1, deltaLocal == 0 : 
+0102_212002.2056=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HOffice_NEO2/R45, project == R45, delta == 0, auth_response == 2, errCode == 0 : 
+0102_212002.2229=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, cdnPath == http://cdn.hancom.com/update/HOffice_NEO2/R45 : 
+0102_212002.2448=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, projectServer == R45, deltaServer == 0 : 
+0102_212002.2662=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+0102_212002.2867=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, product is not latest : 
+0102_212002.3111=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : 
+0102_212002.3734=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, uniqueID: 437676904836840932724836136291769220//OK
+0102_212002.3902=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, clientIP: 192.168.10.100//OK
+0102_212002.4152=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0102_212002.6558=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, Ret val of GetDownloadKeyAndURL() == OK//OK
+0102_212002.6729=(S)_DEBUG: IsForceUpdate: False//OK
+0102_212002.8236=(S)_DEBUG: Entering CommonMethods.GetUpdateInfoUri()...//OK
+0102_212002.8496=End to (None)
+0103_115141.1966=Begin from (None)
+0103_115141.2569=SetProtocol : OK
+0103_115141.3353=(S)_DEBUG: Entering CoreResearch.GetUpdateList()//OK
+0103_115141.3525=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, projectLocal == R1, deltaLocal == 0 : 
+0103_115141.6365=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HncUtils_NEO2/R30, project == R30, delta == 0, auth_response == 2, errCode == 0 : 
+0103_115141.6563=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, cdnPath == http://cdn.hancom.com/update/HncUtils_NEO2/R30 : 
+0103_115141.6793=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, projectServer == R30, deltaServer == 0 : 
+0103_115141.6981=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+0103_115141.7174=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, product is not latest : 
+0103_115141.7410=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, projectLocal == R1, deltaLocal == 0 : 
+0103_115142.0295=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HOffice_NEO2/R45, project == R45, delta == 0, auth_response == 2, errCode == 0 : 
+0103_115142.0496=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, cdnPath == http://cdn.hancom.com/update/HOffice_NEO2/R45 : 
+0103_115142.0701=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, projectServer == R45, deltaServer == 0 : 
+0103_115142.0887=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+0103_115142.1143=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, product is not latest : 
+0103_115142.1367=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : 
+0103_115142.2216=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, uniqueID: 437676904836840932724836136291769220//OK
+0103_115142.2396=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, clientIP: 192.168.10.100//OK
+0103_115142.2599=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0103_115142.4940=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, Ret val of GetDownloadKeyAndURL() == OK//OK
+0103_115142.5125=(S)_DEBUG: IsForceUpdate: False//OK
+0103_115142.6895=(S)_DEBUG: Entering CommonMethods.GetUpdateInfoUri()...//OK
+0103_115142.7098=End to (None)
+0104_002045.1481=Begin from (None)
+0104_002045.2240=SetProtocol : OK
+0104_002045.3066=(S)_DEBUG: Entering CoreResearch.GetUpdateList()//OK
+0104_002045.3236=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, projectLocal == R1, deltaLocal == 0 : 
+0104_002045.6111=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HncUtils_NEO2/R30, project == R30, delta == 0, auth_response == 2, errCode == 0 : 
+0104_002045.6317=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, cdnPath == http://cdn.hancom.com/update/HncUtils_NEO2/R30 : 
+0104_002045.6538=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, projectServer == R30, deltaServer == 0 : 
+0104_002045.6753=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+0104_002045.7013=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, product is not latest : 
+0104_002045.7223=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, projectLocal == R1, deltaLocal == 0 : 
+0104_002045.9979=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HOffice_NEO2/R45, project == R45, delta == 0, auth_response == 2, errCode == 0 : 
+0104_002046.0181=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, cdnPath == http://cdn.hancom.com/update/HOffice_NEO2/R45 : 
+0104_002046.0436=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, projectServer == R45, deltaServer == 0 : 
+0104_002046.0660=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+0104_002046.0903=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, product is not latest : 
+0104_002046.1131=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : 
+0104_002046.1816=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, uniqueID: 437676904836840932724836136291769220//OK
+0104_002046.1999=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, clientIP: 192.168.10.100//OK
+0104_002046.2253=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0104_002046.4718=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, Ret val of GetDownloadKeyAndURL() == OK//OK
+0104_002046.4892=(S)_DEBUG: IsForceUpdate: False//OK
+0104_002046.6217=(S)_DEBUG: Entering CommonMethods.GetUpdateInfoUri()...//OK
+0104_002046.6457=End to (None)
+0105_115536.1068=Begin from (None)
+0105_115536.2716=SetProtocol : OK
+0105_115536.4850=(S)_DEBUG: Entering CoreResearch.GetUpdateList()//OK
+0105_115536.5257=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, projectLocal == R1, deltaLocal == 0 : 
+0105_115536.9111=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HncUtils_NEO2/R30, project == R30, delta == 0, auth_response == 2, errCode == 0 : 
+0105_115536.9612=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, cdnPath == http://cdn.hancom.com/update/HncUtils_NEO2/R30 : 
+0105_115537.0234=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, projectServer == R30, deltaServer == 0 : 
+0105_115537.0817=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+0105_115537.1408=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, product is not latest : 
+0105_115537.1979=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, projectLocal == R1, deltaLocal == 0 : 
+0105_115537.5415=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HOffice_NEO2/R45, project == R45, delta == 0, auth_response == 2, errCode == 0 : 
+0105_115537.5876=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, cdnPath == http://cdn.hancom.com/update/HOffice_NEO2/R45 : 
+0105_115537.6335=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, projectServer == R45, deltaServer == 0 : 
+0105_115537.6911=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+0105_115537.7486=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, product is not latest : 
+0105_115537.8061=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : 
+0105_115537.9559=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, uniqueID: 437676904836840932724836136291769220//OK
+0105_115537.9974=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, clientIP: 192.168.100.142//OK
+0105_115538.0577=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.100.142//OK
+0105_115538.3410=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, Ret val of GetDownloadKeyAndURL() == OK//OK
+0105_115538.3848=(S)_DEBUG: IsForceUpdate: False//OK
+0105_115538.7018=(S)_DEBUG: Entering CommonMethods.GetUpdateInfoUri()...//OK
+0105_115538.7413=End to (None)
+0106_225248.2286=Begin from (None)
+0106_225248.3028=SetProtocol : OK
+0106_225248.3825=(S)_DEBUG: Entering CoreResearch.GetUpdateList()//OK
+0106_225248.3985=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, projectLocal == R1, deltaLocal == 0 : 
+0106_225248.7018=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HncUtils_NEO2/R30, project == R30, delta == 0, auth_response == 2, errCode == 0 : 
+0106_225248.7242=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, cdnPath == http://cdn.hancom.com/update/HncUtils_NEO2/R30 : 
+0106_225248.7487=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, projectServer == R30, deltaServer == 0 : 
+0106_225248.7685=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+0106_225248.8023=DEBUG: CoreCommon.IsLatestProduct(). product == HncUtils_NEO2, product is not latest : 
+0106_225248.8240=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, projectLocal == R1, deltaLocal == 0 : 
+0106_225249.1436=MakeDataRequestURL_Key_Version_Auth cdnPath == http://cdn.hancom.com/update/HOffice_NEO2/R45, project == R45, delta == 0, auth_response == 2, errCode == 0 : 
+0106_225249.1661=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, cdnPath == http://cdn.hancom.com/update/HOffice_NEO2/R45 : 
+0106_225249.1896=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, projectServer == R45, deltaServer == 0 : 
+0106_225249.2096=(S)_DEBUG: in CoreCommon.IsLatestProduct(). retval of protocol.GetServerProductUrl_Key_Version() => OK//OK
+0106_225249.2343=DEBUG: CoreCommon.IsLatestProduct(). product == HOffice_NEO2, product is not latest : 
+0106_225249.2614=DEBUG: in ProtocolTCP.MakeCDNPath(). Make tcp path : 
+0106_225249.3273=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, uniqueID: 437676904836840932724836136291769220//OK
+0106_225249.3467=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, clientIP: 192.168.10.100//OK
+0106_225249.3662=(S)_TCPService.GetDownloadKeyAndURL(). uniqueID: 437676904836840932724836136291769220;192.168.10.100//OK
+0106_225249.6152=(S)_DEBUG: ProtocolTCP.GetUrlDownload(). product: Haansoft, Ret val of GetDownloadKeyAndURL() == OK//OK
+0106_225249.6332=(S)_DEBUG: IsForceUpdate: False//OK
+0106_225249.8067=(S)_DEBUG: Entering CommonMethods.GetUpdateInfoUri()...//OK
+0106_225249.8292=End to (None)
